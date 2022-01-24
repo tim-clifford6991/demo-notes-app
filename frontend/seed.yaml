@@ -1,2 +1,3 @@
 before_build:
-  - cd frontend && npm install
+  - cd frontend && yarn && npm install
+  - ls -lsa node_modules/react-scripts
