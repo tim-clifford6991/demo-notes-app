@@ -1,5 +1,5 @@
 {
-  "name": "newtest",
+  "name": "notesApp",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -14,12 +14,17 @@
       "serverless-stack"
     ]
   },
-
+  "workspaces": [
+    "frontend",
+    "src/packages/*",
+    "src/services/*"
+  ],
   "dependencies": {
     "@serverless-stack/cli": "0.59.0",
     "@serverless-stack/resources": "0.59.0",
     "aws-cdk-lib": "2.7.0",
     "aws-sdk": "^2.1060.0",
+    "react-scripts": "^5.0.0",
     "stripe": "^8.198.0",
     "uuid": "^7.0.3"
   }
