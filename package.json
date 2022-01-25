@@ -14,11 +14,7 @@
       "serverless-stack"
     ]
   },
-  "workspaces": [
-    "frontend",
-    "src/packages/*",
-    "src/services/*"
-  ],
+
   "dependencies": {
     "@serverless-stack/cli": "0.59.0",
     "@serverless-stack/resources": "0.59.0",
